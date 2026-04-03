@@ -56,6 +56,26 @@ export default function Home() {
             </span>
           </div>
 
+          {/* LOGO */}
+          <div
+            style={{
+              display: "flex",
+              alignItems: "center",
+              gap: "16px",
+              marginBottom: "12px",
+            }}
+          >
+            <img
+              src="/logo.png"
+              alt="Logo"
+              style={{
+                width: "70px",
+                height: "70px",
+                objectFit: "contain",
+              }}
+            />
+          </div>
+
           <h1
             style={{
               fontSize: "46px",
